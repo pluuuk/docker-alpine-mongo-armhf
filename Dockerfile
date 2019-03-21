@@ -1,4 +1,4 @@
-FROM arm32v6/alpine:edge
+FROM arm32v6/alpine
 
 RUN \
 apk add --no-cache mongodb && \
